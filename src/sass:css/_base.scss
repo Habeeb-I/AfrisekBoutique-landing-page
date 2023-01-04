@@ -1,0 +1,35 @@
+:root {
+  --color-primary: #555;
+
+  --color-green-light-1: #b2f2bb;
+  --color-green-light-2: #69db7c;
+
+  --color-secondary: #e67e22;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--color-primary);
+
+  background-color: var(--color-green-light-1);
+
+  // min-height: 100vh;
+}

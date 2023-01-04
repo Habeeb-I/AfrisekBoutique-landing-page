@@ -1,0 +1,23 @@
+.header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: inherit;
+  height: 9.6rem;
+  padding: 0 4.6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  padding: 10.6rem 3.6rem;
+}
+
+.description__section {
+  // background-color: orangered;
+
+  flex: 0 0 50%;
+}
